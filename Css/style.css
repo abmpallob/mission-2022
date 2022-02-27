@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Yeseva+One&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Manrope:wght@300;400;500&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@500&family=Yeseva+One&display=swap');
 body{
     margin: 0;
 }
@@ -8,6 +7,7 @@ body{
     margin: auto;
 
 }
+/* hero-section-start */
 .hero-section{
     display: flex;
 }
@@ -46,3 +46,340 @@ body{
 .hero-left span{
     font-family:'Poppins', sans-serif;
 }
+/* hero-section-end */
+
+/* mission-section-start */
+
+.my-mission-section h1{
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Poppins',
+    sans-serif;
+    font-weight: 700;
+}
+.my-mission-section h1 span{
+    color: #fdac59;
+}
+.my-mission{
+    display: flex;
+    justify-content: space-between;
+}
+.mission-01{
+    width: 30%;
+    background: #edf5f6;
+    padding: 30px 25px;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+.mission-02{
+    width: 30%;
+    background: #ffeeee;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+.mission-03{
+    width: 30%;
+    background: #fff4d6;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+.my-mission h3{
+    font-size: 24px;
+    font-family: 'Poppins',
+    sans-serif;
+    font-weight: 600;
+}
+.my-mission p{
+    font-size: 16px;
+    font-family: 'Poppins',
+    sans-serif;
+    font-weight: 400;
+    color: #565656;
+}
+/* mission-section-end */
+
+/* content-section-start */
+.contant-01{
+    display: flex;
+    align-items: center;
+}
+.contant-img-01{
+    width: 40%;
+    margin-top: 50px;
+}
+.contant-img-01 img{
+    width: 100%;
+}
+.contant-details-01{
+    width: 60%;
+    padding-left: 100px;
+}
+.contant-details-01 h2{
+    font-size: 36px;
+    font-family: 'Poppins',
+    sans-serif;
+    font-weight: 700;
+}
+.contant-details-01 p{
+    font-size: 18px;
+    font-family: 'Poppins',
+    sans-serif;
+    font-weight: 400;
+    color: #565656;
+}
+.contant-02{
+    display: flex;
+    margin-top: 50px;
+}
+.contant-details-02{
+    width: 60%;
+}
+.contant-details-02 h2{
+    font-size: 36px;
+    font-family: 'Poppins',
+    sans-serif;
+    font-weight: 700;
+}
+.contant-details-02 p{
+    font-size: 18px;
+    font-family: 'Poppins',
+    sans-serif;
+    font-weight: 400;
+    color: #565656;
+}
+.contant-img-02{
+    text-align: right;
+    width:40%;
+}
+.contant-img-02 img{
+    width: 80%;
+    
+}
+.cmn-btn{
+    background: #ff7878;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-family: 'Roboto',
+    sans-serif;
+    display: inline-block;
+    margin-top: 8px;
+}
+/* content-section-end */
+
+/* service-section-start */
+.service{
+    display: flex;
+    align-items: center;
+}
+.service-section span{
+    color: #ffad5a;
+}
+.service-title {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Poppins',
+    sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+.services-img{
+    width: 40%;
+}
+.services-img img{
+    text-align: right;
+}
+.servicer-details{
+    width: 70%;
+}
+.servicer-details h1{
+    font-weight: 700;
+    font-size: 48px;
+}
+.servicer-details span{
+    color: #ffad5a;
+}
+.servicer-details p{
+      font-size: 18px;
+      font-family: 'Poppins',
+      sans-serif;
+      font-weight: 400;
+      color: #565656;
+      }
+.servicer-details a{
+     background: #ff7878;
+     color: white;
+     font-size: 16px;
+     text-decoration: none;
+     padding: 10px 25px;
+     border-radius: 5px;
+     font-family: 'Roboto',
+     sans-serif;
+}
+/* service-section-end */
+
+/* footer-section-strat */
+.ft-section{
+    margin-top: 50px;
+    background: #0b0d17;
+    text-align: center;
+    padding: 24px;
+}
+.ft-section h1{
+    font-family: 'Lobster',
+    cursive;
+    font-weight: 400;
+    font-size: 36px;
+    color: white;
+}
+.ft-section span{
+    color: #d07879;
+}
+.ft-section p{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Manrope',
+    sans-serif;
+    color: white;
+}
+/* footer-section-end */
+
+
+/* Responsive */
+@media screen and (max-width:500px) {
+.container {
+    width: 90%;
+
+}
+.hero-section {
+        display: flex;
+        flex-direction: column;
+}
+.hero-left h1 {
+    font-size: 42px;
+    border-left: 3px solid #FF5959;
+    padding: 5px 10px;
+}
+.hero-left {
+    width: 100%;
+}
+.hero-right {
+     width: 100%;
+    text-align: center;
+}
+.hero-left p {
+    font-size: 14px;
+}
+.hero-left button {
+    padding: 8px 13px;
+    margin-bottom: 25px;
+}
+.my-mission-section h1 {
+    font-size: 42px;
+}
+.my-mission {
+    display: flex;
+    flex-direction: column;
+}
+.mission-01 {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.mission-02 {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.mission-03 {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.my-mission p {
+    font-size: 14px;
+}
+.contant-01 {
+    display: flex;
+   flex-direction: column;
+}
+.contant-img-01 {
+    width: 100%;
+    text-align: center;
+}
+.contant-details-01 {
+    width: 100%;
+    padding-left: 0;
+}
+.contant-img-01 img {
+    width: 90%;
+}
+.contant-details-01 h2 {
+    font-size: 28px;
+}
+.contant-details-01 p {
+    font-size: 14px;
+}
+.contant-02 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.contant-details-02 {
+    width: 100%;
+}
+.contant-details-02 h2 {
+    font-size: 28px;
+}
+.contant-details-02 p {
+    font-size: 14px;
+}
+.contant-img-02 {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+.contant-img-02 img {
+    width: 90%;
+
+}
+.cmn-btn {
+    font-size: 14px;
+    padding: 8px 15px;
+}
+.service {
+    display: flex;
+    flex-direction: column;
+}
+.service-title {
+    font-size: 40px;
+}
+.services-img {
+    width: 100%;
+    text-align: center;
+}
+.servicer-details {
+    width: 100%;
+}
+.servicer-details h1 {
+    font-size: 40px;
+    margin: 10px 0px;
+}
+.servicer-details p {
+    font-size: 14px;
+}
+.servicer-details a {
+    font-size: 14px;
+    padding: 8px 15px;
+    display: inline-block;
+    margin: 8px 0px ;
+}
+.ft-section {
+    margin-top: 25px;
+}
+
+}
+    
+
+/* Responsive */
